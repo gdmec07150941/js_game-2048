@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="CN">
+
+<head>
+  <meta charset="utf-8">
+  <title>2048小游戏</title>
+  <link rel="stylesheet" href="css/2048.css">
+</head>
+
+<body>
+  <div id="score_box"><span>得分: </span><span id="score"></span></div>
+  <div id="girdPanel">
+    <div id="c00" class="cell"></div>
+    <div id="c01" class="cell"></div>
+    <div id="c02" class="cell"></div>
+    <div id="c03" class="cell"></div>
+    
+    <div id="c10" class="cell"></div>
+    <div id="c11" class="cell"></div>
+    <div id="c12" class="cell"></div>
+    <div id="c13" class="cell"></div>
+
+    <div id="c20" class="cell"></div>
+    <div id="c21" class="cell"></div>
+    <div id="c22" class="cell"></div>
+    <div id="c23" class="cell"></div>
+
+    <div id="c30" class="cell"></div>
+    <div id="c31" class="cell"></div>
+    <div id="c32" class="cell"></div>
+    <div id="c33" class="cell"></div>
+  </div>
+  <div id="gameOver">
+    <p>
+      GAME OVER!<br>
+      得分: <span id="final">62624</span><br>
+      <a href="javascript:game.start();" class="btn">再来一次</a>
+    </p>
+  </div>
+  <script src="js/2048.js"></script>
+</body>
+
+</html>
